@@ -1,0 +1,217 @@
+body.login-page {
+  min-height: 650px !important;
+}
+body.login-page .login-box .login-logo a img.brand-image {
+  height: 105px;
+  margin-bottom: 10px;
+  transition: 400ms all;
+}
+body.login-page .login-box .login-logo a img.brand-image:hover {
+  transform: scale(1.1) !important;
+}
+body.login-page .login-box .login-card-body h1 {
+  font-size: 18px;
+}
+body.login-page .login-box .card .card-body.login-card-body {
+  border-radius: 7px;
+  padding: 30px 30px;
+}
+
+body.swal2-height-auto {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content-wrapper {
+  height: auto !important;
+}
+.content-wrapper.profile .passwordShowHideBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: #CCC;
+  border-radius: 0 5px 5px 0;
+}
+.content-wrapper.profile .profile-box label {
+  cursor: pointer;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 20px;
+  bottom: -10px;
+  left: 90%;
+  color: rgba(0, 123, 255, 0.7);
+}
+.content-wrapper.profile .profile-box label:hover {
+  color: rgb(0, 123, 255);
+}
+.content-wrapper.profile .profile-box #imageUploadForm i {
+  transition: 400ms all;
+}
+.content-wrapper.profile .profile-box #imageUploadForm i:hover {
+  transform: scale(1.4);
+}
+.content-wrapper.profile .profile-box .profile-user-img {
+  width: 130px !important;
+}
+
+.wrapper .main-sidebar .brand-box {
+  margin: 15px 0;
+}
+.wrapper .main-sidebar .brand-box a.brand-img {
+  transition: 400ms all;
+}
+.wrapper .main-sidebar .brand-box a.brand-img img.brand-image {
+  max-height: 80px;
+}
+.wrapper .main-sidebar .brand-box a.brand-img:hover {
+  transform: scale(1.1);
+}
+
+.form-group label span {
+  color: red;
+}
+
+.user-panel .info {
+  white-space: normal;
+}
+
+.nav .nav-item .nav-link i {
+  margin-right: 7px;
+}
+
+.passwordShowHideBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background: #CCC;
+  border-radius: 0 5px 5px 0;
+}
+
+.fancyBox {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.fancyBox .btnBox {
+  position: absolute;
+  opacity: 0;
+}
+.fancyBox:hover img {
+  transition: 0.5s ease;
+  opacity: 0.2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.fancyBox:hover .btnBox {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  color: blue;
+}
+
+.dt-buttons.btn-group.flex-wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: center !important;
+}
+
+#modal .image_area {
+  position: relative;
+}
+#modal .image_area:hover .overlay {
+  height: 50%;
+  cursor: pointer;
+}
+#modal img {
+  display: block;
+  max-width: 100%;
+}
+#modal .preview {
+  overflow: hidden;
+  /*width: 100%;
+  height: auto;*/
+  margin: 10px;
+  /*border: 1px solid red;*/
+}
+#modal .overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  width: 100%;
+}
+#modal .text {
+  color: #333;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+#overlay .cv-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#overlay .cv-spinner .spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px #ddd solid;
+  border-top: 6px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.is-hide {
+  display: none;
+}
+
+@media only screen and (max-width: 1367px) {
+  .row .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row .info-box .info-box-icon {
+    margin: 10px 0;
+  }
+  .row .info-box .info-box-content {
+    text-align: center;
+    width: 100%;
+  }
+}
